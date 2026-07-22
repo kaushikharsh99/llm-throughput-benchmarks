@@ -1,0 +1,32 @@
+============================================================
+ vLLM BENCHMARK REPORT
+============================================================
+Endpoint:              http://localhost:8000/v1/chat/completions
+Model:                 cyankiwi/Qwen3.5-2B-AWQ-4bit
+Requests sent:         1130
+Concurrency:           113
+Successful:            1130
+Failed:                0
+Wall clock time:       294.48 s
+------------------------------------------------------------
+Total prompt tokens:   32770
+Total completion tok:  331937
+Total tokens:          364707
+------------------------------------------------------------
+THROUGHPUT (aggregate, across all concurrent requests)
+  Completion tok/sec:  1127.19
+  Total tok/sec:       1238.47
+  Requests/sec:        3.84
+------------------------------------------------------------
+PER-REQUEST LATENCY (seconds)
+  Mean:                28.147
+  Median:              29.208
+  P90:                 29.682
+  P99:                 32.575
+  Min / Max:           6.569 / 33.816
+------------------------------------------------------------
+PER-REQUEST THROUGHPUT (tokens/sec, individual request)
+  Mean:                11.10
+  Median:              10.18
+  Min / Max:           6.39 / 39.51
+============================================================

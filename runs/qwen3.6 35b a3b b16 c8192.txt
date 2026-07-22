@@ -1,0 +1,53 @@
+============================================================
+                LLAMA.CPP PERFORMANCE REPORT                
+============================================================
+Model:                 Qwen3.6-35B-A3B-UD-IQ4_XS
+Quantization:          IQ4_XS
+GPU Layers:            12
+Context:               8192
+Slots (--parallel):    16
+Batch (--batch-size):  2048
+Micro Batch (--ubatch):512
+Endpoint:              http://127.0.0.1:8080/v1/chat/completions
+------------------------------------------------------------
+REQUESTS
+  Total Requests:      32
+  Concurrency:         16
+  Completed:           32
+  Failed:              0
+  Wall clock time:     72.72 s
+------------------------------------------------------------
+TOKENS
+  Prompt Tokens:       567
+  Generated Tokens:    800
+  Total Tokens:        1367
+------------------------------------------------------------
+THROUGHPUT
+  Prompt tok/s:        7.80
+  Generation tok/s:    11.00
+  Total tok/s:         18.80
+  Requests/s:          0.44
+------------------------------------------------------------
+LATENCY (seconds)
+  Mean:                36.331
+  Median:              36.333
+  P95:                 39.877
+  P99:                 39.882
+  Min / Max:           32.778 / 39.884
+------------------------------------------------------------
+PER REQUEST (tokens/sec)
+  Mean tok/s:          0.69
+  Median tok/s:        0.69
+  Fastest request:     #4 @ 0.76 tok/s
+  Slowest request:     #16 @ 0.63 tok/s
+------------------------------------------------------------
+TIME TO FIRST TOKEN (seconds, streaming mode)
+  Mean:                10.989
+  P95:                 16.043
+------------------------------------------------------------
+SYSTEM (nvidia-smi, 61 samples @ 1.0s)
+  GPU Util % (avg/max):  10.9 / 91.0
+  VRAM Used MB (avg/max):5670 / 5670
+  GPU Power W (avg/max): 14.6 / 35.0
+  GPU Temp C (avg/max):  63.3 / 67.0
+============================================================

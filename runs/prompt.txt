@@ -1,0 +1,131 @@
+Explain quantum entanglement to a high school student.
+Write a Python function for binary search.
+Summarize the French Revolution.
+Translate "Good morning, how are you?" into Japanese.
+Solve: 347 × 829.
+Explain the difference between TCP and UDP.
+Write a haiku about winter.
+Create a SQL query to find duplicate emails.
+Describe how photosynthesis works.
+Give three healthy vegetarian breakfast ideas.
+Explain gradient descent.
+Write a C++ implementation of quicksort.
+What causes earthquakes?
+Explain black holes in simple terms.
+Write a JavaScript debounce function.
+Summarize the novel 1984.
+Explain how Bitcoin mining works.
+Write a regular expression for email validation.
+Explain recursion with an example.
+What is the difference between RAM and SSD?
+Write a Bash script to list large files.
+Explain Kubernetes Pods and Deployments.
+Describe the water cycle.
+Write a poem about the moon.
+Explain the CAP theorem.
+Write a Rust program to reverse a linked list.
+Explain transformers in machine learning.
+Describe how a refrigerator works.
+Write a Go HTTP server example.
+Explain the Pythagorean theorem.
+What is reinforcement learning?
+Explain DNS resolution.
+Write HTML and CSS for a login form.
+Explain CRISPR gene editing.
+Compare PostgreSQL and MySQL.
+Write a Linux command to find empty directories.
+Explain the Doppler effect.
+Write a NumPy matrix multiplication example.
+Explain why the sky appears blue.
+Describe how airplanes generate lift.
+Write a factorial function in Java.
+Explain blockchain in simple language.
+Compare HTTP/2 and HTTP/3.
+Explain the Observer design pattern.
+Write a Fibonacci implementation in C.
+Explain compiler optimization.
+Describe the process of cellular respiration.
+Explain overfitting in machine learning.
+Write a Dockerfile for a Flask application.
+Explain cache coherence in CPUs.
+Describe the life cycle of a butterfly.
+Explain object-oriented programming.
+Write a JSON schema for a user profile.
+Explain Newton's laws of motion.
+Compare supervised and unsupervised learning.
+Explain the Fast Fourier Transform.
+Write a simple React counter component.
+Explain RSA encryption.
+Describe plate tectonics.
+Explain virtual memory.
+Write a unit test in pytest.
+Explain attention mechanisms in LLMs.
+Describe how Wi-Fi works.
+Explain the difference between MoE and dense transformers.
+Explain how a CPU pipeline works.
+Describe the difference between IPv4 and IPv6.
+Write a Python implementation of Dijkstra's algorithm.
+Explain the concept of dynamic programming.
+Describe how HTTPS establishes a secure connection.
+Write a C program to implement a stack.
+Explain how gradient clipping works.
+Describe the architecture of the human heart.
+Write a Java program for breadth-first search.
+Explain what overparameterization means in deep learning.
+Describe the process of protein synthesis.
+Write a shell command to count unique words in a file.
+Explain AVL trees.
+Describe how an SSD stores data.
+Write a Python decorator example.
+Explain Huffman coding.
+Describe the phases of the Moon.
+Write a C++ implementation of a priority queue.
+Explain diffusion models.
+Describe how GPS determines your location.
+Write a regular expression to extract URLs.
+Explain branch prediction in CPUs.
+Describe how a neural network learns.
+Write a TypeScript interface for a blog post.
+Explain the producer-consumer problem.
+Describe the greenhouse effect.
+Write a Python implementation of merge sort.
+Explain Bloom filters.
+Describe how an operating system schedules processes.
+Write a SQL query to rank employee salaries.
+Explain the difference between BFS and DFS.
+Describe how solar panels generate electricity.
+Write a Java implementation of a hash map.
+Explain cosine similarity.
+Describe how email is delivered over the Internet.
+Write a Docker Compose file for Redis and PostgreSQL.
+Explain deadlock and how to prevent it.
+Describe the stages of mitosis.
+Write a C implementation of a queue.
+Explain the difference between SIMD and MIMD.
+Describe how Bluetooth pairing works.
+Write a Python script to remove duplicate lines from a file.
+Explain B-trees.
+Describe how tides are formed.
+Write a JavaScript function to deep clone an object.
+Explain Monte Carlo methods.
+Describe the nitrogen cycle.
+Write a Rust implementation of binary search.
+Explain how attention differs from recurrence.
+Describe how LiDAR works.
+Write a Python generator example.
+Explain the birthday paradox.
+Describe how DNS caching works.
+Write a C++ implementation of topological sort.
+Explain sparse matrices.
+Describe how compression algorithms like gzip work.
+Write a Flask API that returns JSON.
+Explain the vanishing gradient problem.
+Describe how OLED displays work.
+Write a SQL query to calculate a running total.
+Explain the difference between normalization and standardization.
+Describe how compiler parsing works.
+Write a Python implementation of A* search.
+Explain graph neural networks.
+Describe how NAND flash memory works.
+Write a Bash script to monitor CPU usage.
+Explain the difference between RNNs, CNNs, and Transformers.

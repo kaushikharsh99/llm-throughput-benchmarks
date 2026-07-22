@@ -1,0 +1,53 @@
+============================================================
+                LLAMA.CPP PERFORMANCE REPORT                
+============================================================
+Model:                 gemma-4-E2B-it-IQ4_XS
+Quantization:          IQ4_XS
+GPU Layers:            999
+Context:               147456
+Slots (--parallel):    192
+Batch (--batch-size):  4096
+Micro Batch (--ubatch):512
+Endpoint:              http://127.0.0.1:8080/v1/chat/completions
+------------------------------------------------------------
+REQUESTS
+  Total Requests:      960
+  Concurrency:         192
+  Completed:           960
+  Failed:              0
+  Wall clock time:     310.36 s
+------------------------------------------------------------
+TOKENS
+  Prompt Tokens:       22244
+  Generated Tokens:    287840
+  Total Tokens:        310084
+------------------------------------------------------------
+THROUGHPUT
+  Prompt tok/s:        71.67
+  Generation tok/s:    927.43
+  Total tok/s:         999.10
+  Requests/s:          3.09
+------------------------------------------------------------
+LATENCY (seconds)
+  Mean:                61.907
+  Median:              62.033
+  P95:                 65.625
+  P99:                 67.275
+  Min / Max:           47.160 / 67.298
+------------------------------------------------------------
+PER REQUEST (tokens/sec)
+  Mean tok/s:          4.85
+  Median tok/s:        4.84
+  Fastest request:     #6 @ 5.16 tok/s
+  Slowest request:     #346 @ 4.46 tok/s
+------------------------------------------------------------
+TIME TO FIRST TOKEN (seconds, streaming mode)
+  Mean:                1.817
+  P95:                 3.007
+------------------------------------------------------------
+SYSTEM (nvidia-smi, 303 samples @ 1.0s)
+  GPU Util % (avg/max):  48.8 / 100.0
+  VRAM Used MB (avg/max):4281 / 4282
+  GPU Power W (avg/max): 49.8 / 84.6
+  GPU Temp C (avg/max):  77.8 / 86.0
+============================================================

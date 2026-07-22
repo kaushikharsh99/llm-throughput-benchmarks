@@ -1,0 +1,62 @@
+    LFM2-24B-A2B-Q4_K_M.gguf \
+    --local-dir ~/models/lfm2-24b-a2b
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+LFM2-24B-A2B-Q4_K_M.gguf: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 14.4G/14.4G [07:45<00:00, 28.9MB/s]
+/home/harsh/models/lfm2-24b-a2b/LFM2-24B-A2B-Q4_K_M.gguf
+
+╭─     ~/coding/benchmark on    main +6290 !31 ?43 ─────────────────────────────────────────────────────────── took   7m 48s   base at   05:56:45 PM ─╮
+╰─❯ python llama-cpp-benchmark.py                                                                                                                           ─╯
+
+============================================================
+                LLAMA.CPP PERFORMANCE REPORT                
+============================================================
+Model:                 LFM2-24B-A2B-Q4_K_M
+Quantization:          Q4_K_M
+GPU Layers:            15
+Context:               16384
+Slots (--parallel):    32
+Batch (--batch-size):  4096
+Micro Batch (--ubatch):512
+Endpoint:              http://127.0.0.1:8080/v1/chat/completions
+------------------------------------------------------------
+REQUESTS
+  Total Requests:      64
+  Concurrency:         32
+  Completed:           64
+  Failed:              0
+  Wall clock time:     57.81 s
+------------------------------------------------------------
+TOKENS
+  Prompt Tokens:       1077
+  Generated Tokens:    1598
+  Total Tokens:        2675
+------------------------------------------------------------
+THROUGHPUT
+  Prompt tok/s:        18.63
+  Generation tok/s:    27.64
+  Total tok/s:         46.28
+  Requests/s:          1.11
+------------------------------------------------------------
+LATENCY (seconds)
+  Mean:                28.818
+  Median:              28.504
+  P95:                 33.689
+  P99:                 33.690
+  Min / Max:           24.068 / 33.690
+------------------------------------------------------------
+PER REQUEST (tokens/sec)
+  Mean tok/s:          0.88
+  Median tok/s:        0.86
+  Fastest request:     #56 @ 1.04 tok/s
+  Slowest request:     #3 @ 0.74 tok/s
+------------------------------------------------------------
+TIME TO FIRST TOKEN (seconds, streaming mode)
+  Mean:                5.607
+  P95:                 9.139
+------------------------------------------------------------
+SYSTEM (nvidia-smi, 57 samples @ 1.0s)
+  GPU Util % (avg/max):  62.1 / 88.0
+  VRAM Used MB (avg/max):5656 / 5666
+  GPU Power W (avg/max): 30.4 / 37.7
+  GPU Temp C (avg/max):  64.4 / 71.0
+============================================================

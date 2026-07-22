@@ -1,0 +1,59 @@
+==================================================
+
+
+╭─     ~/coding/benchmark on    main +6290 !31 ?43 ─────────────────────────────────────────────────────────── took   1m 37s   base at   04:59:34 PM ─╮
+╰─❯ python llama-cpp-benchmark.py                                                                                                                           ─╯
+	
+============================================================
+                LLAMA.CPP PERFORMANCE REPORT                
+============================================================
+Model:                 Qwen3.6-27B-IQ4_XS
+Quantization:          IQ4_XS
+GPU Layers:            20
+Context:               4096
+Slots (--parallel):    8
+Batch (--batch-size):  2048
+Micro Batch (--ubatch):512
+Endpoint:              http://127.0.0.1:8080/v1/chat/completions
+------------------------------------------------------------
+REQUESTS
+  Total Requests:      16
+  Concurrency:         8
+  Completed:           16
+  Failed:              0
+  Wall clock time:     295.21 s
+------------------------------------------------------------
+TOKENS
+  Prompt Tokens:       293
+  Generated Tokens:    400
+  Total Tokens:        693
+------------------------------------------------------------
+THROUGHPUT
+  Prompt tok/s:        0.99
+  Generation tok/s:    1.35
+  Total tok/s:         2.35
+  Requests/s:          0.05
+------------------------------------------------------------
+LATENCY (seconds)
+  Mean:                147.579
+  Median:              147.580
+  P95:                 242.625
+  P99:                 242.630
+  Min / Max:           52.526 / 242.631
+------------------------------------------------------------
+PER REQUEST (tokens/sec)
+  Mean tok/s:          0.29
+  Median tok/s:        0.29
+  Fastest request:     #7 @ 0.48 tok/s
+  Slowest request:     #8 @ 0.10 tok/s
+------------------------------------------------------------
+TIME TO FIRST TOKEN (seconds, streaming mode)
+  Mean:                39.370
+  P95:                 60.163
+------------------------------------------------------------
+SYSTEM (nvidia-smi, 277 samples @ 1.0s)
+  GPU Util % (avg/max):  4.3 / 100.0
+  VRAM Used MB (avg/max):5684 / 5688
+  GPU Power W (avg/max): 12.8 / 36.1
+  GPU Temp C (avg/max):  67.9 / 72.0
+============================================================

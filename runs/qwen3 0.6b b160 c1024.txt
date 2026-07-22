@@ -1,0 +1,32 @@
+============================================================
+ vLLM BENCHMARK REPORT
+============================================================
+Endpoint:              http://localhost:8000/v1/chat/completions
+Model:                 Qwen/Qwen3-0.6B-GPTQ-Int8
+Requests sent:         1280
+Concurrency:           160
+Successful:            1280
+Failed:                0
+Wall clock time:       132.90 s
+------------------------------------------------------------
+Total prompt tokens:   32000
+Total completion tok:  382717
+Total tokens:          414717
+------------------------------------------------------------
+THROUGHPUT (aggregate, across all concurrent requests)
+  Completion tok/sec:  2879.63
+  Total tok/sec:       3120.41
+  Requests/sec:        9.63
+------------------------------------------------------------
+PER-REQUEST LATENCY (seconds)
+  Mean:                16.176
+  Median:              15.711
+  P90:                 19.212
+  P99:                 22.340
+  Min / Max:           5.227 / 23.472
+------------------------------------------------------------
+PER-REQUEST THROUGHPUT (tokens/sec, individual request)
+  Mean:                19.18
+  Median:              19.08
+  Min / Max:           12.73 / 57.40
+============================================================
